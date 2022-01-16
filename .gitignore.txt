@@ -1,0 +1,11 @@
+.secrets
+data/title.basics.ts
+data/title.basics.ts.sav
+data/title.basics.tsv
+data/title.ratings.ts
+data/title.ratings.ts.sav
+data/title.ratings.tsv
+data/title.principals.ts
+data/title.principals.ts.sav
+data/title.principals.tsv
+TODO.txt
