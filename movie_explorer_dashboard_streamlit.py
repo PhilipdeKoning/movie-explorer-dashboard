@@ -125,7 +125,7 @@ if page == 'Movie People':
     movies_subset = movies_subset.sort_values(by = ['Rating','Title'], ascending = False).reset_index()
 
 
-    fig = px.line(movies_subset, x="Year", y="Rating", markers = True, \
+    fig = px.line(movies_subset.sort_values(by = ['Year', name_col]), x="Year", y="Rating", markers = True, \
                   title='Movie Scores over Time for Each Person Selected', \
                     color = name_col, hover_name = 'Title')# fig.show()
 
